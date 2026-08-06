@@ -6,6 +6,19 @@ This project performs **Exploratory Data Analysis (EDA)** on the Sample Supersto
 
 The objective is to analyze sales performance, profitability, customer behavior, product performance, and regional trends to generate meaningful business insights through data analysis and visualization.
 
+## 📸 Project Preview
+
+### Sales by Category
+
+![Sales by Category](Images/Sales_by_Category.png)
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](Images/Monthly_Sales_Trend.png)
+
+### Top 10 Customers
+
+![Top 10 Customers](Images/Top_10_Customers.png)
 ---
 
 ## 🎯 Objectives
