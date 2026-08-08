@@ -121,6 +121,9 @@ The project also includes an **interactive Power BI dashboard** for business int
 # 📊 Power BI Dashboard
 
 An interactive **Power BI dashboard** was created using the same Superstore dataset.
+### 📸 Dashboard Preview
+
+![Power BI Dashboard](Images/PowerBI_Dashboard.png)
 
 ### Dashboard Features
 
@@ -151,3 +154,4 @@ The Power BI `.pbix` file is available in:
 
 ```text
 PowerBI/Superstore_Sales_Analysis.pbix
+
