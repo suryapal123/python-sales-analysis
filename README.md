@@ -6,6 +6,10 @@ This project performs **Exploratory Data Analysis (EDA)** on the Sample Supersto
 
 The objective is to analyze sales performance, profitability, customer behavior, product performance, and regional trends to generate meaningful business insights through data analysis and visualization.
 
+The project also includes an **interactive Power BI dashboard** for business intelligence and visual analysis.
+
+---
+
 ## 📸 Project Preview
 
 ### Sales by Category
@@ -19,6 +23,7 @@ The objective is to analyze sales performance, profitability, customer behavior,
 ### Top 10 Customers
 
 ![Top 10 Customers](Images/Top_10_Customers.png)
+
 ---
 
 ## 🎯 Objectives
@@ -26,8 +31,11 @@ The objective is to analyze sales performance, profitability, customer behavior,
 - Import and explore the dataset
 - Clean and preprocess the data
 - Perform Exploratory Data Analysis (EDA)
+- Analyze sales and profitability
+- Analyze customer and product performance
 - Answer real-world business questions
 - Create informative visualizations
+- Build an interactive Power BI dashboard
 - Generate actionable business insights
 
 ---
@@ -39,6 +47,7 @@ The objective is to analyze sales performance, profitability, customer behavior,
 - NumPy
 - Matplotlib
 - Jupyter Notebook
+- Power BI
 - Git & GitHub
 
 ---
@@ -55,33 +64,30 @@ The objective is to analyze sales performance, profitability, customer behavior,
 ## 📊 Key Performance Indicators (KPIs)
 
 | KPI | Value |
-|------|-------|
-| Total Sales | ₹23,26,534.35 |
-| Total Profit | ₹2,92,296.81 |
+|---|---:|
+| Total Sales | $2,326,534.35 |
+| Total Profit | $292,296.81 |
 | Total Orders | 10,194 |
-| Average Order Value | ₹228.23 |
+| Average Order Value | $228.23 |
 
 ---
 
 ## 📈 Business Questions Solved
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Order Value
-- Sales by Category
-- Profit by Category
-- Sales by Region
-- Profit by Region
-- Sales by Segment
-- Top 10 Customers
-- Top 10 Products
-- Monthly Sales Trend
-- Sales Distribution
-- Category Performance
-- Regional Performance
-- Customer Performance
-- Business Insights
+- What are the total sales?
+- What is the total profit?
+- How many orders were placed?
+- What is the average order value?
+- Which category generates the highest sales?
+- Which category generates the highest profit?
+- Which region generates the highest sales?
+- Which region generates the highest profit?
+- Which customer segment contributes the highest sales?
+- Who are the top 10 customers by sales?
+- What are the top 10 products by sales?
+- How do sales change month by month?
+- What is the sales distribution?
+- Which categories and regions perform best?
 
 ---
 
@@ -90,6 +96,7 @@ The objective is to analyze sales performance, profitability, customer behavior,
 - 📊 Sales by Category
 - 📊 Profit by Category
 - 📊 Sales by Region
+- 📊 Profit by Region
 - 📈 Monthly Sales Trend
 - 📊 Top 10 Customers
 - 📊 Top 10 Products
@@ -100,108 +107,47 @@ The objective is to analyze sales performance, profitability, customer behavior,
 
 ## 💡 Key Business Insights
 
-- Technology category generated the highest sales (**₹8,39,893.28**).
-- Technology category generated the highest profit (**₹1,46,543.38**).
-- Furniture recorded the lowest overall profit.
-- West region achieved the highest sales (**₹7,39,813.61**).
-- West region also generated the highest profit (**₹1,10,798.82**).
-- Consumer segment contributed the highest sales (**₹11.71 Lakhs**).
-- Sean Miller was the highest revenue-generating customer (**₹25,043.05**).
-- Monthly sales showed noticeable seasonal fluctuations.
+- **Technology** generated the highest sales at approximately **$839,893.28**.
+- **Technology** generated the highest profit at approximately **$146,543.38**.
+- **Furniture** recorded the lowest overall profit among the three categories.
+- **West** generated the highest sales at approximately **$739,813.61**.
+- **West** also generated the highest profit at approximately **$110,798.82**.
+- **Consumer** was the highest-performing customer segment by sales.
+- **Sean Miller** was the highest revenue-generating customer at approximately **$25,043.05**.
+- Monthly sales showed noticeable fluctuations throughout the year.
 
 ---
 
-## 📁 Project Structure
+# 📊 Power BI Dashboard
+
+An interactive **Power BI dashboard** was created using the same Superstore dataset.
+
+### Dashboard Features
+
+- Total Sales KPI
+- Total Profit KPI
+- Total Orders KPI
+- Average Order Value
+- Monthly Sales Trend
+- Sales by Category
+- Profit by Category
+- Sales by Region
+- Profit by Region
+- Top 10 Customers
+- Top 10 Products
+- Sales by Segment
+- Region filter
+- Category filter
+- Segment filter
+- Year filter
+
+### Dashboard Preview
+
+The Power BI dashboard provides interactive filtering and allows users to explore sales and profitability from different business perspectives.
+
+### Power BI File
+
+The Power BI `.pbix` file is available in:
 
 ```text
-Python-Sales-Analysis/
-│
-├── Dataset/
-│   └── sample_superstore.csv
-│
-├── Notebook/
-│   └── Sales_Analysis.ipynb
-│
-├── Images/
-│   ├── Sales_by_Category.png
-│   ├── Profit_by_Category.png
-│   ├── Sales_by_Region.png
-│   ├── Monthly_Sales_Trend.png
-│   ├── Top_10_Customers.png
-│   ├── Top_10_Products.png
-│   ├── Sales_Distribution.png
-│   └── Sales_by_Segment.png
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
-
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/suryapal123/python-sales-analysis.git
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```
-Notebook/Sales_Analysis.ipynb
-```
-
----
-
-## 🎓 Skills Demonstrated
-
-- Data Cleaning
-- Data Transformation
-- Exploratory Data Analysis (EDA)
-- Business Analysis
-- Data Visualization
-- Data Interpretation
-- Pandas Operations
-- Aggregation & Grouping
-- Analytical Thinking
-
----
-
-## 📌 Future Enhancements
-
-- Build an interactive dashboard using Plotly
-- Perform predictive sales forecasting
-- Add advanced statistical analysis
-- Create a Power BI dashboard using the same dataset
-- Develop a machine learning sales prediction model
-
----
-
-## 👨‍💻 Author
-
-**Surya Pal**
-
-🎓 MCA Student | Aspiring Data Analyst
-
-### Connect with Me
-
-- GitHub: https://github.com/suryapal123
-- LinkedIn: *(Add your LinkedIn profile URL here)*
-
----
-
-## ⭐ If you found this project helpful, please consider giving it a Star!
+PowerBI/Superstore_Sales_Analysis.pbix
